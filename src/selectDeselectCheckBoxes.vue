@@ -4,10 +4,10 @@ import { ref, watchEffect } from 'vue';
 export default {
   setup() {
     const items = ref([
-	  { name : 'Mohamed Fattoumi', checked: false },
-      { name : 'Kamel Fattoumi', checked: false },
-      { name : 'Rochdi Fattoumi', checked: false },
-      { name : 'Hichem Fattoumi', checked: false },
+      { name : 'Pomme', checked: false },
+      { name : 'Banane', checked: false },
+      { name : 'Kiwi', checked: false },
+      { name : 'Orange', checked: false },
       // Add more items as needed
     ]);
 	const allSelectLabel = ref('Tout Séléctionner');
